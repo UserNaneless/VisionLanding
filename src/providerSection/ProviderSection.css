@@ -1,0 +1,30 @@
+.providerSection{
+    background-color: var(--main-color-2);
+    height: 100vh;
+    color: white;
+}
+
+.providerText{
+    width: 650px;
+    margin-top: 60px;
+}
+
+.providerTextTitle{
+    font-size: 36px;
+}
+
+.providerTextMainText{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 160%;
+
+}
+
+.providerCardsWrapper{
+    margin-top: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}

@@ -1,0 +1,35 @@
+.miniPhoneSection{
+    height: 276px;
+    background-color: var(--main-color-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.miniPhoneSectionWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.miniPhoneText{
+    width: 660px;
+    word-wrap: break-word;
+    color: white;
+    font-size: 2.25rem;
+    line-height: 110%;
+}
+
+.miniPhoneButton{
+    font-size: 1.25rem;
+    width: 310px;
+    color: white;
+    background-color: var(--main-color-2);
+    font-weight: 500;
+    height: 72px;
+}
+
+.miniPhoneButton:hover{
+    color: var(--main-color-1);
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.menuItem{
+    position: relative;
+    font-size: 16px;
+    margin: 0 20px 0 20px;
+    font-weight: light;
+    text-transform: uppercase;
+}
+
+.menuItem:hover{
+    color: #F1A40E;
+    cursor: pointer;
+}

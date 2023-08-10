@@ -1,0 +1,17 @@
+.pointCard{
+    color: white;
+    padding: 30px;
+    height: 300px;
+}
+
+.pointCardTitle{
+    margin: 30px 0 30px 0;
+    text-transform: uppercase;
+}
+
+.pointCardText{
+    word-wrap: break-word;
+    line-height: 164%;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}

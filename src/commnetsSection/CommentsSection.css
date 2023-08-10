@@ -1,0 +1,54 @@
+.commentSection{
+    background-color: var(--main-color-1);
+    height: 672px;
+}
+
+.commentSectionWrapper{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.commentSectionLeft{
+    color: white;
+    width: 562px;
+    padding: 30px;
+}
+
+.commentSectionTitle{
+    font-weight: bold;
+    line-height: 180%;
+    font-size: 18px;
+}
+
+.commentSectionText{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    line-height: 220%;
+    margin: 20px 0 35px 0;
+}
+
+.commentSectionButton{
+    color: white;
+    background-color: var(--main-color-2);
+    width: 203px;
+    height: 60px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 140%;
+}
+
+.commentSectionButton:hover{
+    color: var(--main-color-2);
+    background-color: #fff;
+    cursor: pointer;
+
+}
+
+.commentSectionRight{
+    display: flex;
+    flex-direction: column;
+}
+
+.comment:nth-child(1){
+    margin-bottom: 30px;
+}

@@ -1,0 +1,44 @@
+.providerCard{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: all .25s;
+    padding: 57px 30px 57px 30px;
+    background-image: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/6dfc249d806557eaa0d2772f/top-view-image-motivated-employees-working-together-office-official-meeting-concept-business.jpg);
+    transition: transform 1s;
+
+}
+
+.providerCardTitle{
+    text-transform: uppercase;
+    font-weight: 700;   
+    font-size: 1.25rem;
+}
+
+.circleIcon{
+    margin-bottom: 30px;
+}
+
+.providerCardList{
+    margin-top: 21px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 17px;
+}
+
+.providerCardListItem{
+    margin-bottom: 15px;
+}
+
+.providerCard:hover{
+    cursor: pointer;
+    box-shadow: inset 0 0 0 1000px var(--main-color-1);
+}
+
+.providerCard:hover .circleIcon{
+    background-color: var(--main-color-2);
+    color: var(--main-color-1);
+}
+
+.providerActive{
+    transform: translateX(0);
+}

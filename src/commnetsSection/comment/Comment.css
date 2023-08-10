@@ -1,0 +1,21 @@
+.comment{
+    background-color: white;
+    width: 505px;
+    padding: 30px;
+    transition: transform 1s;
+}
+
+.commentIcon{
+    font-size: 33px;
+    margin-top: 10px;
+}
+
+.commentText{
+    margin: 13px 0 13px 0;
+    font-family: "Open Sans" sans-serif;
+}
+
+.commentAuthor{
+    text-transform: uppercase;
+    line-height: 120%;
+}

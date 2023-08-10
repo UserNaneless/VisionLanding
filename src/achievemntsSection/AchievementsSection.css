@@ -1,0 +1,22 @@
+.achievementsSection{
+    height: 600px;
+    background-color: var(--main-color-2);
+    color: white;
+    padding-top: 60px;
+}
+
+.achievementsSectionTitle{
+    margin-bottom: 20px;
+}
+
+.achievementsSectionText{
+    font-family: "Open Sans", sans-serif;
+    line-height: 160%;
+}
+
+.achievements{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}

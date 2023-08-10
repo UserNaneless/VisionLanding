@@ -1,0 +1,25 @@
+.companyQuotesSection{
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(//images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/55870c3441345167be16bfa2/silhouette-business-people-discussion-meeting-cityscape-team-concept.jpg);
+    height: 670px;
+}
+
+.companyQuotesSectionWrapper{
+    padding: 70px 0 50px 0;
+    color: white;
+}
+
+.quoteTitle{
+    width: 700px;
+    line-height: 120%;
+    font-weight: 700;
+    margin-bottom: 38px;
+}
+
+.quoteText{
+    line-height: 160%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.quote:nth-child(1){
+    margin-bottom: 150px;
+}

@@ -1,0 +1,12 @@
+.contactSection{
+    height: 698px;
+    background: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/2cc1a632c8c5511c86638369/jhhhhhh.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.contactSectionWrapper{
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-between;
+}

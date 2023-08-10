@@ -1,0 +1,18 @@
+.companyInfo{
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 577px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoTitle{
+    font-size: 36px;
+    text-transform: capitalize;
+}

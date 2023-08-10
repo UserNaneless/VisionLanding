@@ -1,0 +1,37 @@
+.openerText{
+    width: 1140px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.openerTextWrapper{
+    width: 510px;
+    margin-top: 90px;
+}
+
+.openerTextTitle{
+    color: #F1A40E;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.openerTextButton{
+    background-color: var(--main-color-1);
+    width: 210px;
+    height: 57px;
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.openerTextMainText{
+    margin: 50px 0 20px 0;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: justify;
+}
+
+.openerTextButton:hover{
+    cursor: pointer;
+}

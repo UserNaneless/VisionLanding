@@ -1,0 +1,36 @@
+.workerPhoto{
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+}
+
+.workerInitials{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 23px;
+    margin-bottom: 30px;
+}
+
+.workerCard{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.workerSocials{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.workerSocials a{
+    outline: none;
+    color: var(--main-color-1);
+    display: block;
+}

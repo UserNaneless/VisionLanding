@@ -1,0 +1,17 @@
+.interestPointSection{
+    background-color: var(--main-color-2);
+}
+
+.interestPointSectionWrapper{
+    margin-top: 60px;
+    height: 936px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 30px;
+}
+
+.card{
+    height: 400px;
+    background-color: red;
+}
